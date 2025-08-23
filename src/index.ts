@@ -5,7 +5,7 @@ const app = express();
 const PORT: number = parseInt(process.env.PORT || "3000", 10);
 
 app.get("/hello", (req: Request, res: Response) => {
-  const message = constructResponse("weavix");
+  const message = constructResponse("weavix and pimpire");
   res.send(message);
 });
 
